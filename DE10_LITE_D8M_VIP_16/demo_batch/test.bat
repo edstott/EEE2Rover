@@ -16,7 +16,7 @@
 @if exist %QUARTUS_BIN%\\quartus_pgm.exe (goto DownLoad)
 
 :: Prepare for future use (if exes are in bin32)
-@set QUARTUS_BIN=%QUARTUS_ROOTDIR%\\bin32
+@set QUARTUS_BIN=C:\intelFPGA_lite\18.1\quartus\bin64
 
 :DownLoad
 %QUARTUS_BIN%\\quartus_pgm.exe -m jtag -c 1 -o "p;DE10_LITE_D8M_VIP.sof"
