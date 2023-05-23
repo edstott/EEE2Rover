@@ -9,10 +9,10 @@
 @ REM # i.e. G:/$SOPC_KIT_NIOS2/bin
 @ set CYGWIN=nodosfilewarning
 
-@set QUARTUS_BIN=%QUARTUS_ROOTDIR%\\bin
+@set QUARTUS_BIN=C:\intelFPGA_lite\18.1\quartus\bin64
 @if exist %QUARTUS_BIN%\\quartus_pgm.exe (goto DownLoad)
 
-@set QUARTUS_BIN=%QUARTUS_ROOTDIR%\\bin64
+@set QUARTUS_BIN=C:\intelFPGA_lite\18.1\quartus\bin64
 @if exist %QUARTUS_BIN%\\quartus_pgm.exe (goto DownLoad)
 
 :: Prepare for future use (if exes are in bin32)
